@@ -1,7 +1,50 @@
-.App {
+.app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  font-family: 'Playfair Display', serif;
+  font-size: large;
+  background-color: lightslategrey;
   text-align: center;
 }
+.time {
+  padding-bottom: 15px;
+}
 
+.timerButton {
+  padding: 15px;
+  margin: 10px;
+  background-color: mintcream;
+  border-radius: 10px;
+}
+
+input {
+  border-radius: 5px;
+}
+
+a {
+  color:dimgray;
+}
+.arousal-participant {
+  font-size: 12rem;
+}
+.view-button {
+  padding: 15px;
+  margin: 10px;
+  background-color: mintcream;
+  border-radius: 10px;
+}
+
+#root {
+  height: 600px;
+}
+.welcome {
+  font-family: 'Playfair Display', serif;
+  font-size: xx-large;
+  padding-bottom: 25px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
