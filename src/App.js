@@ -90,7 +90,7 @@ function App() {
       setPause(false)
       setThirtySeconds(0)
     } else {
-      arousalLevel = state.arousalLevel
+      let arousalLevel = state.arousalLevel
       chooseSound(arousalLevel)
       setPause(true)
     }
